@@ -1,0 +1,183 @@
+@media (min-width:1201px) and (max-width:1400px) {
+    .slider-area {
+
+        height: 120vh;
+    }
+    .main-menu ul li a {
+        margin-right: 40px;
+    }
+    .service-area .single-service {
+        padding: 50px 25px 40px 25px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li a {
+        margin-right: 30px;
+    }
+    .feature-area {
+        position: relative;
+        margin-top: 100px;
+    }
+    .feature-area .single-feature {
+        padding: 55px 10px;
+    }
+    .subscription-content form input:not(.subscribe-btn) {
+        width: 100%;
+    }
+    .service-area .single-service {
+        margin-bottom: 30px;
+    }
+    .service-area .single-service:nth-child(3),
+    .service-area .single-service:nth-child(4) {
+        margin-bottom: 0;
+    }
+    .pricing-area .single-price h3 {
+        padding-bottom: 20px;
+    }
+    .pricing-area .single-price {
+        padding: 25px 0px;
+    }
+    .pricing-area .single-price span {
+        margin: 0;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider-area {
+        background-position: center center;
+    }
+    .header-area {
+        padding-top: 30px;
+    }
+    .main-menu ul li a {
+        margin-right: 30px;
+    }
+    .slider-area .single-slide h1 {
+        font-size: 50px;
+    }
+    .feature-area {
+        position: relative;
+        margin-top: 100px;
+    }
+    .feature-area .single-feature {
+        padding: 55px 0px;
+        border-bottom: 1px solid #ddd;
+    }
+    .theme-bg .col-xl-4:last-child .single-feature {
+        border-bottom: 0;
+    }
+    .about-content {
+        margin-bottom: 30px;
+    }
+    .subscription-content form input:not(.subscribe-btn) {
+        width: 100%;
+    }
+    .service-area .single-service {
+        margin-bottom: 30px;
+    }
+    .service-area .single-service:nth-child(3),
+    .service-area .single-service:nth-child(4) {
+        margin-bottom: 0;
+    }
+    .pricing-area .single-price {
+        width: 31%;
+    }
+    .pricing-area .single-price h3 {
+        padding-bottom: 20px;
+    }
+    .pricing-area .single-price {
+        padding: 25px 0px;
+    }
+    .pricing-area .single-price span {
+        margin: 0;
+    }
+    .single-blog {
+        display: flex;
+    }
+    .single-blog .blog-content {
+        margin-left: 20px;
+    }
+    .single-blog .blog-content h3 {
+        margin: 0px 0 20px 0;
+        line-height: 30px;
+    }
+    .footer-menu ul li {
+        display: inline-block;
+        margin-left: 28px;
+    }
+    .footer-widget {
+        margin-bottom: 35px;
+    }
+}
+@media (max-width: 767px) {
+    .header-area {
+        padding-top: 30px;
+    }
+    .slider-area .single-slide h1 {
+        font-size: 35px;
+    }
+    .feature-area {
+        margin-top: 50px;
+    }
+    .feature-area .single-feature {
+        border-bottom: 1px solid #ddd;
+    }
+    .theme-bg .col-xl-4:last-child .single-feature {
+        border-bottom: 0;
+    }
+    .feature-area .single-feature p {
+        padding: 0 20px;
+    }
+    .about-content {
+        margin-bottom: 30px;
+    }
+    .service-area .single-service {
+        margin-bottom: 30px;
+    }
+    .service-area .single-service:nth-child(3),
+    .service-area .single-service:nth-child(4) {
+        margin-bottom: 0;
+    }
+    .pricing-area .single-price {
+        width: 31%;
+    }
+    .form-floating > .form-control, .form-floating > .form-control-plaintext {
+        margin-bottom: 15px;
+    }
+    .subscription-content form input:not(.subscribe-btn) {
+        width: 100%;
+    }
+    .subscription-content form .subscribe-btn {
+        margin: auto;
+    }
+    .pricing-area .single-price {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .single-counter {
+        margin-bottom: 30px;
+    }
+    .testimonial-info {
+        padding: 60px 10px 45px 10px;
+    }
+    .testimonial-area .slick-dots {
+        left: -20px;
+    }
+    .footer-widget {
+        margin-bottom: 35px;
+    }
+    .copyright-area p {
+        text-align: center;
+    }
+    .footer-menu {
+        text-align: center;
+    }
+    .footer-menu ul {
+        padding: 0;
+    }
+    .footer-menu ul li:first-child {
+        margin-left: 0px;
+    }
+}
